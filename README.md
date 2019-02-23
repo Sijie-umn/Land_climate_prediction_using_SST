@@ -1,5 +1,4 @@
-# Land_climate_prediction_with_SST
-# Land climate predicition with sea surface temperature
+# Land climate predicition with sea surface temperature (SST)
 
 ## Introduction
 

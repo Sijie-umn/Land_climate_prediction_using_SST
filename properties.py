@@ -38,7 +38,7 @@ Lasso_result_file="result_lasso5_2x2.p"#predicted land temperature file name
 
 
 
-# Parameters for linear model - Adaptive Lasso
+# Parameters for linear model - Weighted Lasso
 
 ALasso_X_file='X_sep5_2x2.p'# preprocessed sea surface temperatue data file
 ALasso_Y_file='Y_sep5.p' # preprocessed land temperatue data file

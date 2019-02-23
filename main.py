@@ -15,7 +15,7 @@ def main():
     #Run PCR
     p = linear_function.linear_pcr()
     p.run_PCR()
-    #Run adaptive Lasso
+    #Run weighted Lasso
     a = linear_function.linear_alasso()
     a.run_alasso()
     #Run Lasso

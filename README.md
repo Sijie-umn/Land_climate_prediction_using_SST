@@ -2,7 +2,7 @@
 
 ## Introduction
 
-See [the AAAI-19 paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-HeSijie.6971.pdf) for technical information on the land climate prediction with sea surface temperature.
+See [the paper (published in AAAI-2019)](https://www.aaai.org/Papers/AAAI/2019/AAAI-HeSijie.6971.pdf) for technical information on the land climate prediction with sea surface temperature.
 
 
 ## Getting started

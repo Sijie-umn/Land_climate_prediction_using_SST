@@ -1,0 +1,37 @@
+Raw data:
+lat_lon.mat
+X_tos_2.5x2.5.mat
+y_tas.mat
+
+
+Preprocessed data:
+X_sep5_2x2.p
+Y_sep5.p
+
+
+========================Raw data=====================
+
+X_tos_2.5x2.5.mat: Monthly global sea surface temperatures from 13 Earth System Models (ESM) starting from 1850.
+Y_tas.mat: Monthly temperature at 9 land target regions starting from 1850.
+lat_lon.mat: This matrix indicates the geographical location of ocean and land. (1 represents land and 0 represents ocean)
+
+The detailed description can be found in the document "Data_collection_and_preprocessing.pdf" and the AAAI-19 paper.
+
+
+========================Preprocessed data============
+
+X_sep5_2x2.p: Preprocessed SST (z-score for each month) from 3 ESM models (CMCC-CESM, INMCM4, MIROC5).
+
+Shape: 3(ESMs) x 10(Sliding windows) x 2 (Train(*) + Test(**))
+
+       (*) Train: 1200 (100 years) x 5881 (Ocean locations)
+       (**) Test: 120 (10 years) x 5881 (Ocean locations)
+
+Y_sep5.p: Preprocessed land temperature (z-score for each month) at 3 land target regions (Brazil, Peru, South-east Asia) from 3 ESM models (CMCC-CESM, INMCM4, MIROC5)
+
+Shape: 3(Land target regions) x 10(Sliding windows) x 2 (Train (*) + Test(**))
+
+       (*) Train: 1200 (100 years) x 3(Land target regions: Brazil, Peru, South-east Asia)
+       (**) Test: 120 (10 years) x 3(Land target regions: Brazil, Peru, South-east Asia)
+
+For the detailed description, please refer to AAAI-19 paper section 4.

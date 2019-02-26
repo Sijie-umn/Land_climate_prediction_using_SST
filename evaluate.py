@@ -29,5 +29,5 @@ for i in range(2):
             sum_r2[i][1][climate_model][target_region] = stats.sem(r2[climate_model][target_region][i][0:num_window], axis=0)
 #save evaluation results
 np.save("rmse_gbt_new.npy",sum_rmse)
-np.save("r2_gbt_new.npy",sum_rmse)
+np.save("r2_gbt_new.npy",sum_r2)
 
